@@ -25,3 +25,4 @@ var Listing = mongoose.model('Listing', listingSchema);
 
 /* Export the model to make it avaiable to other parts of your Node application */
 module.exports = Listing;
+
