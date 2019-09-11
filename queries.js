@@ -16,7 +16,7 @@ var findLibraryWest = function() {
     then log it to the console. 
    */
   Listing.find({ name: 'Library West'},function(err, listing){
-    console.log(listing);
+    console.log(listing + '\n');
   });
 };
 var removeCable = function() {
@@ -29,7 +29,7 @@ var removeCable = function() {
     if(err){
       throw err;
     }
-    console.log('CABL deleted');
+    console.log('CABL deleted\n');
   })
 };
 var updatePhelpsLaboratory = function() {
